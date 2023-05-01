@@ -22,6 +22,11 @@ gem 'devise'
 
 gem 'simple_form'
 
+gem 'bootstrap', '~> 5.1.1'
+gem 'jquery-rails'
+gem 'popper_js', '~> 2.0'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
