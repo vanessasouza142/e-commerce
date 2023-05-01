@@ -31,6 +31,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'awesome_print'
+  gem 'dotenv-rails'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'pry-rails'
+  gem 'rspec-rails'
+  gem 'rubocop'
 end
 
 group :development do
@@ -48,6 +55,11 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
+  gem 'webdrivers'
+  gem 'database_cleaner'
+  gem 'shoulda-matchers'
+  gem 'simplecov'
+  gem 'vcs'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
