@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'vcr'
 require 'simplecov'
+requite 'fakerrails'
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
