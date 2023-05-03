@@ -1,7 +1,8 @@
-//= link_tree ../images
 //= link_directory ../stylesheets .css
-//= require jquery
-//= require popper
-//= require bootstrap
+//= link application.css
+//= link_tree ../images
+
+
+
 
 

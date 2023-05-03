@@ -22,7 +22,7 @@ gem 'devise'
 
 gem 'simple_form'
 
-gem 'bootstrap', '~> 5.1.1'
+gem 'bootstrap', '~> 5.1.3'
 gem 'jquery-rails'
 gem 'popper_js', '~> 2.0'
 
