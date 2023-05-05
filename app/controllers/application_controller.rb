@@ -10,4 +10,9 @@ class ApplicationController < ActionController::Base
             "application"
         end
     end
+
+    before_action :authenticate_user!
+
+    include Devise::Controllers::Helpers
+
 end

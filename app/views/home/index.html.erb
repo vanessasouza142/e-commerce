@@ -2,8 +2,8 @@
 
 <% if user_signed_in? %>
     <h2>Ben-vindo</h2>
-    <%= button_to "logout", destroy_user_session_path, method: :delete  %>
+    <%= button_to "Sair", destroy_user_session_path, method: :delete  %>
 <% else %>
-    <h2> Por favor, se cadastre aqui <%= link_to "Sign up", new_user_registration_path %> </h2>
-    <%= link_to "Login", new_user_session_path, :class => 'navbar-link' %>
+    <h2> Por favor, se cadastre aqui <%= link_to "Cadastrar", new_user_registration_path %> </h2>
+    <%= link_to "Entrar", new_user_session_path, :class => 'navbar-link' %>
 <% end %>
