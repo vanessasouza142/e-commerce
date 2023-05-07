@@ -1,7 +1,9 @@
 require 'spec_helper'
 require 'vcr'
 require 'simplecov'
-requite 'fakerrails'
+require 'faker'
+
+
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
@@ -39,3 +41,7 @@ VCR.configure do |config|
 end
 
 SimpleCov.start
+
+require 'database_cleaner'
+
+
