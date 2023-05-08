@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bem-vindo ao ECommerce</title>
+    <title>Bem-vindo ao E-commerce</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <!-- Navigation-->
+        <%= render 'layouts/store/nav' %>
+        <!-- Header-->
+        <%= yield %>
+        <!-- Footer-->
+        <%= render 'layouts/store/footer' %>
   </body>
 </html>
