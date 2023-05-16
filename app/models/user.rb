@@ -8,4 +8,8 @@ class User < ApplicationRecord
 
   enum role: { user: 'user', admin: 'admin' }
 
+  def admin?
+    role == 'admin'
+  end
+
 end
